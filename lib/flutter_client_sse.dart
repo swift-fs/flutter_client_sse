@@ -100,7 +100,7 @@ class SSEClient {
                 if (field == 'data') {
                   // If the field is data, we get the data through the substring
                   value = dataLine.substring(
-                    5,
+                    6,
                   );
                 } else {
                   value = match.group(2) ?? '';
